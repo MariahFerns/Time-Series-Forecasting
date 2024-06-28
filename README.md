@@ -1,4 +1,4 @@
-# Time-series-forecasting
+# ⏰Time-series-forecasting
 
 ## Introduction
 In today's competitive market, accurate sales forecasting is crucial for making informed business decisions. This project aims to predict the demand for various items across restaurants, helping companies optimize their inventory and staffing decisions. By leveraging machine learning and deep learning techniques, we strive to improve the accuracy of sales forecasts.
@@ -37,25 +37,18 @@ The project was divided into several key tasks:
 
 3. **Forecasting**:
    - Implemented machine learning models: Linear Regression, Random Forest Regressor, and XGBoost.
-     ![image](https://github.com/MariahFerns/Time-series-forecasting/assets/165193476/a118335b-f413-418e-8e37-acf99e032505)
    - Used auto ARIMA (SARIMA) for time series forecasting.
-     ![image](https://github.com/MariahFerns/Time-series-forecasting/assets/165193476/118e7a15-4774-4783-b8b0-0f10a0331179)
    - Applied Facebook's Prophet for another time series forecasting approach.
-     ![image](https://github.com/MariahFerns/Time-series-forecasting/assets/165193476/9c3e760e-1849-478f-a6a8-9bdc9ca44d74)
    - Developed a deep learning model using LSTM for more complex patterns.
-     ![image](https://github.com/MariahFerns/Time-series-forecasting/assets/165193476/a81b8f8a-f309-4d79-ab06-d824b34c403d)
 
 ## Results
 - **EDA Findings**:
   - Identified peak sales periods and trends over different time frames.
-    ![image](https://github.com/MariahFerns/Time-series-forecasting/assets/165193476/f6584a49-9c6e-444d-8be3-69e4040145df)
   - Highlighted the most popular items and top-performing stores.
 
 - **Model Performance**:
   - Linear Regression, Random Forest, and XGBoost were evaluated using RMSE. Random Forest performed consistently well across all stores.
-    ![image](https://github.com/MariahFerns/Time-series-forecasting/assets/165193476/93d6c160-f616-4edd-b282-425ea918b406)
   - SARIMA and Prophet models provided insights into seasonality and trends.
-    ![image](https://github.com/MariahFerns/Time-series-forecasting/assets/165193476/800145e8-a3c9-4caf-a565-c9fbbe4fb1ff)
   - LSTM model captured complex patterns and performed well on test data.
 
 ## Conclusion
@@ -78,3 +71,10 @@ This project provided valuable insights into sales patterns and forecasting accu
    ```bash
    git clone https://github.com/MariahFerns/Time-series-forecasting.git
    cd Time-series-forecasting
+
+2. Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+
+3. Run the Jupyter notebook in the notebooks/ folder to reproduce the analysis and models.
+
